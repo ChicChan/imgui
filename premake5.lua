@@ -6,7 +6,7 @@ project "ImGui"
   objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
   files
-  (
+  {
   "imconfig.h",
   "imgui.h",
   "imgui.cpp",
@@ -17,7 +17,7 @@ project "ImGui"
   "imstb_textedit.h",
   "imstb_truetype.h",
   "imgui_demo.cpp"
-  )
+  }
 
   filter "system:windows"
     systemversion "latest"
